@@ -23,4 +23,24 @@ fn main() {
     }
 
     println!("THe value of y is {y}");
+
+
+    another_function(5, 6);
+
+
+    // Control Flow 
+    let z = 3;
+    if z < 5 {
+        println!("condition was true");
+    } else {
+        println!("condition was false");
+    }
+}
+
+//  FUcntions
+
+fn another_function(x: i32, y: i32) {
+    println!("Another function. {x}, y = {y}");
+
+
 }
